@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; margin-top: 60px; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.card{
+    width: 800px;
+    border-radius: 12px;
+    
+}
+.community{
+    padding: 38px;
+    
+}
+h2{
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 22px;
+    
+}
+.community h3{
+    font-weight: bold;
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 15px;
+    
+}
+.community p{
+    color: hsl(218, 22%, 67%);
+    line-height: 32px;
+    
+}
+.pl{
+    display: flex;
+}
+.monthsub{
+    padding: 38px;
+    background-color: hsl(179, 62%, 43%);
+    color:white;
+}
+.monthsub h3{
+    padding-bottom: 22px;
+    
+}
+.price{
+    display: inline-flex !important;
+}
+.pricep{
+    padding: 7px 0px 0px 12px;
+    
+}
+.access{
+    padding: 12px 0px 22px 0px;
+
+}
+button{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    padding: 17px;
+    border-radius: 7px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+}
+.choose{
+    padding: 42px;
+    background-color: hsl(179, 62%, 43%);
+    opacity: 0.7;
+    color: white;
+}
+.choose h3{
+    padding-bottom: 20px;
+    
+}
+li{
+    padding-bottom: 3px;
+    font-size: 16px;
+    opacity: 0.6;
+}
+@media (min-width:768px){
+    .choose,.monthsub{
+        width: 50%;
+    }
+}
+@media (max-width:768px){
+    .card{
+        width: 90%;
+        margin-top: 40px;
+    }
+    .pl{
+        display: flex;
+        flex-direction: column;
+    }
+    .community {
+        padding-right: 20px;
+    }
+    .choose,.monthsub{
+        width: 100%;
+    }
+}
